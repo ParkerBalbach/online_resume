@@ -3,7 +3,7 @@ import './about.css'
 import MYPIC from '../../images/placeholder_image.png'
 import {FaBusinessTime} from 'react-icons/fa'
 import {MdLanguage} from 'react-icons/md'
-import { FaTools } from 'react-icons/fa'
+import {FaTools} from 'react-icons/fa'
 
 const about = () => {
   return (
