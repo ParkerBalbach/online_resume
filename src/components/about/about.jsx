@@ -22,16 +22,16 @@ const about = () => {
             <article className='about__card'>
               <FaBusinessTime className='about__icon'/>
               <h5>Experience</h5>
-              <small>6+ Years Of Software Development</small>
+              <small>6+ Years</small>
             </article>
             <article className='about__card'>
               <MdLanguage className='about__icon'/>
-              <h5>Programming Languages</h5>
+              <h5>Languages</h5>
               <small>10+</small>
             </article>
             <article className='about__card'>
               <FaTools className='about__icon'/>
-              <h5>Tools & Frameworks</h5>
+              <h5>Tools</h5>
               <small>10+</small>
             </article>
           </div>
