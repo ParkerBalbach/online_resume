@@ -21,7 +21,7 @@ const about = () => {
             <article className='about__card'>
               <FaBusinessTime className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years In Industry</small>
+              <small>6+ Years Of Software Development</small>
             </article>
             <article className='about__card'>
               <MdLanguage className='about__icon'/>
@@ -34,6 +34,13 @@ const about = () => {
               <small>X amount</small>
             </article>
           </div>
+
+          <p>
+          Recent Computer Science graduate with over a year of hands-on experience building and testing applications using multiple tools and programming languages. 
+          Experienced with several programming languages (Python, React, Java, JavaScript, CSS, HTML, PHP, Kotlin, C, C#, C++, and SQL). Experienced with working in 
+          an agile team environment; as well as using a test driven development process. Worked with/as all roles in a Scrum system. Have worked with several different 
+          tools and frameworks(MySQL, Git, AWS, Firebase, Maven, Spring Boot, Docker, Apache Spark, and Jira) Seeking to use my development experience in an entry-level position.
+          </p>
         </div>
       </div>
     </section>
