@@ -8,7 +8,8 @@ import {FaTools} from 'react-icons/fa'
 const about = () => {
   return (
     <section id='about'>
-      <h5>Career Objective</h5>
+      <h5>About Me</h5>
+      <h2>Career Objective</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
