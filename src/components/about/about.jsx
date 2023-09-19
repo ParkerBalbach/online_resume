@@ -41,6 +41,8 @@ const about = () => {
           an agile team environment; as well as using a test driven development process. Worked with/as all roles in a Scrum system. Have worked with several different 
           tools and frameworks(MySQL, Git, AWS, Firebase, Maven, Spring Boot, Docker, Apache Spark, and Jira) Seeking to use my development experience in an entry-level position.
           </p>
+
+          <a href="#contact" className='btn btn-primary'>Contact Information</a> 
         </div>
       </div>
     </section>
