@@ -25,13 +25,13 @@ const about = () => {
             </article>
             <article className='about__card'>
               <MdLanguage className='about__icon'/>
-              <h5>Languages</h5>
-              <small>X amount</small>
+              <h5>Languages Experienced In</h5>
+              <small>10+</small>
             </article>
             <article className='about__card'>
               <FaTools className='about__icon'/>
-              <h5>Tools & Frameworks</h5>
-              <small>X amount</small>
+              <h5>Tools & Frameworks Experienced In</h5>
+              <small>10+</small>
             </article>
           </div>
 
