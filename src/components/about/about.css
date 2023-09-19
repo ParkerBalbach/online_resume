@@ -23,3 +23,17 @@
 .about__me-image:hover {
     transform: rotate(10deg);
 }
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    background: var(--color-light-bg);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
