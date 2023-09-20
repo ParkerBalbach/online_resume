@@ -1,9 +1,11 @@
+/* Container for the About section */
 .about__container {
     display: grid;
-    grid-template-columns: 1fr 35% 50%;
-    gap: 15%;
+    grid-template-columns: 1fr 35% 50%; /* Three-column layout with defined widths */
+    gap: 15%; /* Gap between columns */
 }
 
+/* About Me Section */
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -13,6 +15,7 @@
     place-items: center;
 }
 
+/* Image in About Me Section */
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
@@ -20,16 +23,19 @@
     transition: var(--transition);
 }
 
+/* Hover effect for image */
 .about__me-image:hover {
     transform: rotate(10deg);
 }
 
+/* Container for Cards (Experience, Languages, Tools */
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr); /* Three cards in a row */
+    gap: 1.5rem; /* Gap between cards */
 }
 
+/* Individual Card */
 .about__card {
     background: var(--color-light-bg);
     border: 1px solid transparent;
@@ -39,48 +45,56 @@
     transition: var(--transition);
 }
 
+/* Hover effect for Cards */
 .about__card:hover {
     background: transparent;
     border-color: var(--color-light-bg);
     cursor: default;
 }
 
+/* Icons that's inside the cards */
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
+/* Title that's inside the cards */
 .about__card h5 {
     font-size: 1rem;
 }
 
+/* Small text inside the cards */
 .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
 }
 
+/* Content section in about */
 .about__content {
-    margin-top: 2rem;
-    text-align: justify;
-    margin-left: 1rem;
-    flex: 1;
-}
-.about__content p {
-    margin: 1rem;
-    color: var(--color-light);
-    margin-left: 2px;
+    margin-top: 2rem; /* Margin to separate from cards */
+    text-align: justify; /* Justify the text for uniform appearnce */
+    margin-left: 1rem; /* Adjust left margin for alignment */
+    flex: 1; /* Allow content to grow and fill available space */
 }
 
+/* Paragraph text inside content */
+.about__content p {
+    margin: 1rem; /* Margin around the paragraph */
+    color: var(--color-light);
+    margin-left: 2px; /* Adjust left margin for alignment to fit with the cards and contact button */
+}
+
+/* Primary button for contact information */
 .btn-primary {
-    margin-top: 1rem;
+    margin-top: 1rem; /* Margin to vertically align the button */
 }
 
 /* Tablet Media Queries */
 @media screen and (max-width: 1024px) {
     .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 0; /* No gap */
     }
 
     .about__me {
@@ -101,15 +115,15 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr 1fr; /* Two cards in a row */
+        gap: 1rem; /* Gap between cards */
     }
 
     .about__content {
-        text-align: center;
+        text-align: center; /* Center-align content */
     }
 
     .about__content p {
-        margin: 1.5rem 0;
+        margin: 1.5rem 0; /* Margin for paragraph */
     }
 }
