@@ -60,9 +60,20 @@
     color: var(--color-light);
 }
 
+.about__content {
+    margin-top: 2rem;
+    text-align: justify;
+    margin-left: 1rem;
+    flex: 1;
+}
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 1rem;
     color: var(--color-light);
+    margin-left: 2px;
+}
+
+.btn-primary {
+    margin-top: 1rem;
 }
 
 /* Tablet Media Queries */
