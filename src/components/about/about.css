@@ -1,0 +1,129 @@
+/* Container for the About section */
+.about__container {
+    display: grid;
+    grid-template-columns: 1fr 35% 50%; /* Three-column layout with defined widths */
+    gap: 15%; /* Gap between columns */
+}
+
+/* About Me Section */
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+/* Image in About Me Section */
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0);
+    transition: var(--transition);
+}
+
+/* Hover effect for image */
+.about__me-image:hover {
+    transform: rotate(10deg);
+}
+
+/* Container for Cards (Experience, Languages, Tools */
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three cards in a row */
+    gap: 1.5rem; /* Gap between cards */
+}
+
+/* Individual Card */
+.about__card {
+    background: var(--color-light-bg);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+/* Hover effect for Cards */
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-light-bg);
+    cursor: default;
+}
+
+/* Icons that's inside the cards */
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+/* Title that's inside the cards */
+.about__card h5 {
+    font-size: 1rem;
+}
+
+/* Small text inside the cards */
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+/* Content section in about */
+.about__content {
+    margin-top: 2rem; /* Margin to separate from cards */
+    text-align: justify; /* Justify the text for uniform appearnce */
+    margin-left: 1rem; /* Adjust left margin for alignment */
+    flex: 1; /* Allow content to grow and fill available space */
+}
+
+/* Paragraph text inside content */
+.about__content p {
+    margin: 1rem; /* Margin around the paragraph */
+    color: var(--color-light);
+    margin-left: 2px; /* Adjust left margin for alignment to fit with the cards and contact button */
+}
+
+/* Primary button for contact information */
+.btn-primary {
+    margin-top: 1rem; /* Margin to vertically align the button */
+}
+
+/* Tablet Media Queries */
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 0; /* No gap */
+    }
+
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* Phone Media Queries */
+@media screen and (max-width: 600px) {
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr; /* Two cards in a row */
+        gap: 1rem; /* Gap between cards */
+    }
+
+    .about__content {
+        text-align: center; /* Center-align content */
+    }
+
+    .about__content p {
+        margin: 1.5rem 0; /* Margin for paragraph */
+    }
+}
