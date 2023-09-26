@@ -1,6 +1,6 @@
 import React from 'react'
 import './workhistory.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import { BsPatchCheckFill } from 'react-icons/bs'
 
 const workhistory = () => {
   return (
@@ -15,59 +15,79 @@ const workhistory = () => {
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className='text-light'>Intermediate</small>
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className='text-light'>Intermediate</small>
+              <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>React</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>React</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>Spring Boot</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>Spring Boot</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
           </div>
         </div>
         {/* Back-END */}
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>MongoDB</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>MongoDB</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>SQL</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>SQL</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>Node.js</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>Node.js</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>PHP</h4>
-              <small className='text-light'>Intermediate</small>
+              <div>
+                <h4>PHP</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>PHP</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
