@@ -1,11 +1,23 @@
 import React from 'react'
-import React, { useRef } from 'react';
-import emailjs from emailjs-com;
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsWhatsapp} from 'react-icons/bs'
 
 const contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
