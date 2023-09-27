@@ -5,7 +5,7 @@ import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsWhatsapp} from 'react-icons/bs'
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -49,4 +49,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
