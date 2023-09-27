@@ -18,8 +18,8 @@ const footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href="www.linkedin.com/in/parker-balbach"><GrLinkedin /></a>
-        <a href="https://github.com/ParkerBalbach"><AiOutlineGithub /></a>
+        <a href="www.linkedin.com/in/parker-balbach" target='_blank' rel='noreferrer'><GrLinkedin /></a>
+        <a href="https://github.com/ParkerBalbach" target='_blank' rel='noreferrer'><AiOutlineGithub /></a>
         <a href='mailto:parkerbalbach@gmail.com' target='_blank' rel='noreferrer'><SiGmail /></a>
       </div>
 
