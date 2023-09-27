@@ -1,4 +1,6 @@
 import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from emailjs-com;
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsWhatsapp} from 'react-icons/bs'
