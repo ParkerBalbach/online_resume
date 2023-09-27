@@ -22,6 +22,10 @@ const footer = () => {
         <a href="https://github.com/ParkerBalbach"><AiOutlineGithub /></a>
         <a href='mailto:parkerbalbach@gmail.com' target='_blank' rel='noreferrer'><SiGmail /></a>
       </div>
+
+      <div className="footer__copyright">
+        <small>&copy; Parker Balbach. All rights reserved.</small>
+      </div>
     </footer>
   )
 }
