@@ -51,3 +51,11 @@ header {
         height: 100vh;
     }
 }
+
+/* Screens 1440p and up */
+@media  screen and (min-width: 2560px) {
+    header {
+        height: 75vh;
+    }
+    
+}
