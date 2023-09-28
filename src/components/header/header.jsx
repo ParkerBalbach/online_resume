@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import RES from './CV'
-import PLACE from '../../images/placeholder_image.png'
+import TOWARD from '../../images/Looking_Toward_Crop.png'
 
 const header = () => {
   return (
@@ -12,7 +12,7 @@ const header = () => {
         <RES />
         <div className='mypic'>
           {/* Change this to my picture in the future */}
-          <img src={PLACE} alt='place' />
+          <img src={TOWARD} alt='place' />
         </div>
       </div>
     </header>
