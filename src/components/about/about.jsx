@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css'
 import MYPIC from '../../images/placeholder_image.png'
+import LEFT from '../../images/bad_pic.png'
+import DOWN from '../../images/bad_pic.png'
 import {FaBusinessTime} from 'react-icons/fa'
 import {MdLanguage} from 'react-icons/md'
 import {FaTools} from 'react-icons/fa'
@@ -13,7 +15,7 @@ const about = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={MYPIC} alt="Me" />
+            <img src={LEFT} alt="Me" />
           </div>
         </div>
 
