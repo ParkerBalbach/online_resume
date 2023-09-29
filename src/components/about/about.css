@@ -17,14 +17,13 @@
 
 /* Image in About Me Section */
 .about__me-image {
-    border-radius: 10rem;
+    border-radius: 11rem;
     overflow: hidden;
     transform: rotate(0);
     transition: var(--transition);
     position: relative;
     padding-top: 5rem; 
-    margin-left: -3rem;
-    margin-right: -3rem;
+    padding-bottom: 6rem;
     z-index: 1; 
 }
 
@@ -40,7 +39,7 @@
 
 /* Hover effect for image */
 .about__me-image:hover {
-    transform: rotate(0);
+    transform: rotate(10);
 }
 
 /* Container for Cards (Experience, Languages, Tools */
