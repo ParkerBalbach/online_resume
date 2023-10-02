@@ -158,3 +158,25 @@
         margin: 1.5rem 0; /* Margin for paragraph */
     }
 }
+
+/* Galaxy S8+ media query */
+@media screen and (max-width: 360px) {
+    .about__me {
+        width: 65%;
+        margin: 0 auto 1rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr; /* Two cards in a row */
+        gap: 1rem; /* Gap between cards */
+        margin-left: -1rem;
+    }
+
+    .about__content {
+        text-align: center; /* Center-align content */
+    }
+
+    .about__content p {
+        margin: 1.5rem 0 0 -1rem; /* Margin for paragraph */
+    }
+}
