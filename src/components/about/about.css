@@ -177,6 +177,10 @@
     }
 
     .about__content p {
-        margin: 1.5rem 0 0 -1rem; /* Margin for paragraph */
+        margin: 1.5rem 0 0.5rem -1rem; /* Margin for paragraph */
+    }
+
+    .btn-primary {
+        margin: 2rem 1rem 0 0;
     }
 }
