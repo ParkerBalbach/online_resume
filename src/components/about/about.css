@@ -104,6 +104,23 @@
     margin-top: 1rem; /* Margin to vertically align the button */
 }
 
+/* Media Query for 1080p screen */
+@media screen and (max-width: 1920px) {
+    .about__container {
+        grid-template-columns: 1fr 50% 35%; /* Single column layout */
+        gap: 15%; /* No gap */
+    }
+
+    .about__me {
+        width: 100%;
+    }
+
+    .about__content p {
+        margin: 1rem;
+        margin-left: 2px;
+    }
+}
+
 /* Tablet Media Queries */
 @media screen and (max-width: 1024px) {
     .about__container {
