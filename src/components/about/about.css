@@ -107,8 +107,8 @@
 /* Media Query for 1080p screen */
 @media screen and (max-width: 1920px) {
     .about__container {
-        grid-template-columns: 1fr 50% 35%; /* Single column layout */
-        gap: 15%; /* No gap */
+        grid-template-columns: 1fr 50% 35%; /* Three-column layout */
+        gap: 15%; /* gap between columns */
     }
 
     .about__me {
@@ -146,7 +146,7 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr; /* Two cards in a row */
+        grid-template-columns: 1fr; /* One card in a row */
         gap: 1rem; /* Gap between cards */
     }
 
@@ -167,7 +167,7 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr; /* Two cards in a row */
+        grid-template-columns: 1fr; /* One card in a row */
         gap: 1rem; /* Gap between cards */
         margin-left: -1rem;
     }
