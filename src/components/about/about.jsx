@@ -23,7 +23,7 @@ const about = () => {
             <article className='about__card'>
               <FaBusinessTime className='about__icon'/>
               <h5>Experience</h5>
-              <small>6+ Years</small>
+              <small>3+ Years</small>
             </article>
             <article className='about__card'>
               <MdLanguage className='about__icon'/>
