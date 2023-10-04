@@ -19,14 +19,14 @@ const education = () => {
               developer ready to excel in demanding professional environments.
             </p>
             <p>
-              - Successfully completed coursework involving Data Structures, Computer Architecture, Operating Systems, Web Development, Data Bases, Mobile Development, and Algorithms
+            &#8226; Successfully completed coursework involving Data Structures, Computer Architecture, Operating Systems, Web Development, Data Bases, Mobile Development, and Algorithms
             </p>
             <p>
-              - Played a pivotal role in the creation of an application that tracks and visualizes wildfire data, which is currently used by scientists across the country
+            &#8226; Played a pivotal role in the creation of an application that tracks and visualizes wildfire data, which is currently used by scientists across the country
               https://fpafod.boisestate.edu/Data
             </p>
             <p>
-              - Successfully optimized the applications performance by over 50%
+            &#8226; Successfully optimized the applications performance by over 50%
             </p>
           </div>
         </div>
