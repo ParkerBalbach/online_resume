@@ -43,6 +43,10 @@
     .education__container {
         gap: 2rem;
     }
+
+    .diploma__background {
+        aspect-ratio: 1.36/1;
+    }
 }
 
 /* Tablet Media Queries */
