@@ -59,21 +59,15 @@
         order: -1;
         aspect-ratio: 1.36/1;
     }
-}
 
-/* .about__container {
-    grid-template-columns: 1fr;
-    gap: 0; 
-}
+    .education__content {
+        margin: -1rem auto 0.5rem;
+    }
 
-.about__me {
-    width: 50%;
-    margin: 2rem auto 4rem;
+    .education__content p {
+        margin: 1rem 0 1.5rem;
+    }
 }
-
-.about__content p {
-    margin: 1rem 0 1.5rem;
-} */
 
 /* Phone Media Queries */
 @media screen and (max-width: 600px) {
