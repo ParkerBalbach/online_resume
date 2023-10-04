@@ -71,6 +71,27 @@
 
 /* Phone Media Queries */
 @media screen and (max-width: 600px) {
+    .education__container {
+        width: 90%;
+        margin: 0 auto 3rem;
+    }
+
+    .education__content {
+        text-align: left;
+    }
+
+    .education__content p {
+        margin: 1.5rem 0;
+        text-indent: 0;
+        padding-left: 0.5em;
+        position: relative;
+    }
+
+    .education__content p::before {
+        position: absolute;
+        left: 0;
+        margin-left: -0.5em;
+    }
 }
 
 /* Galaxy S8+ media query */
