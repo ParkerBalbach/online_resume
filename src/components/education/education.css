@@ -1,7 +1,7 @@
 /* Container for the education section */
 .education__container {
     display: grid;
-    grid-template-columns: 50% 35% 1fr; /* Three-column layout with defined widths */
+    grid-template-columns: 50% 1fr; /* Three-column layout with defined widths */
     gap: 15%; /* Gap between columns */
 }
 
@@ -16,7 +16,7 @@
 /* Diploma background */
 .diploma__background {
     width: 100%;
-    aspect-ratio: 1.35/1;
+    aspect-ratio: 1.356/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, rgb(214, 67, 9), rgb(0,51,160), rgb(214, 67, 9));
     display: grid;
@@ -25,7 +25,7 @@
 
 /* Text content in Education section */
 .education__content {
-    margin-top: 2rem; /* Margin to separate from cards */
+    margin-top: -1rem; /* Make sure that text is aligned with picture */
     text-align: justify; /* Justify the text for uniform appearnce */
     margin-left: 1rem; /* Adjust left margin for alignment */
     flex: 1; /* Allow content to grow and fill available space */
@@ -35,6 +35,48 @@
     margin: 1rem; /* Margin around the paragraph */
     color: var(--color-light);
     margin-left: 2px; /* Adjust left margin for alignment to fit with the cards and contact button */
+}
+
+
+/* Media Query for 1080p screen */
+@media screen and (max-width: 1920px) {
+    .education__container {
+        gap: 2rem;
+    }
+}
+
+/* Tablet Media Queries */
+@media screen and (max-width: 1024px) {
+    .education__container {
+        grid-template-columns: 1fr;
+    }
+
+    .diploma__background {
+        order: -1;
+        aspect-ratio: 1.36/1;
+    }
+}
+
+/* .about__container {
+    grid-template-columns: 1fr;
+    gap: 0; 
+}
+
+.about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+}
+
+.about__content p {
+    margin: 1rem 0 1.5rem;
+} */
+
+/* Phone Media Queries */
+@media screen and (max-width: 600px) {
+}
+
+/* Galaxy S8+ media query */
+@media screen and (max-width: 360px) {
 }
 
 
