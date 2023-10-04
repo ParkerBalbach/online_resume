@@ -5,13 +5,22 @@
     gap: 15%; /* Gap between columns */
 }
 
-
 /* Diploma image */
 .education__diploma-image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(0);
     transition: var(--transition);
+}
+
+/* Diploma background */
+.diploma__background {
+    width: 100%;
+    aspect-ratio: 1.35/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, rgb(214, 67, 9), rgb(0,51,160), rgb(214, 67, 9));
+    display: grid;
+    place-items: center;
 }
 
 /* Text content in Education section */
@@ -27,5 +36,6 @@
     color: var(--color-light);
     margin-left: 2px; /* Adjust left margin for alignment to fit with the cards and contact button */
 }
+
 
 

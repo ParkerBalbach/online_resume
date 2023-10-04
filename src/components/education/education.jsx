@@ -30,8 +30,10 @@ const education = () => {
             </p>
           </div>
         </div>
+        <div className="diploma__background">
         <div className="education__diploma-image">
           <img src={DIPLOMA} alt='Diploma' />
+        </div>
         </div>
       </div>
     </section>
