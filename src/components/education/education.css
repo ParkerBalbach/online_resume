@@ -92,6 +92,10 @@
         left: 0;
         margin-left: -0.5em;
     }
+
+    .education__diploma-image {
+        aspect-ratio: 1.39/1;
+    }
 }
 
 /* Galaxy S8+ media query */
