@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
-    margin-left: 6rem;
+    margin-left: 8rem;
 }
 
 .experience__details {
@@ -64,8 +64,28 @@
 }
 
 .experience__bullets-indenting {
-    text-indent: -2rem;
+    text-indent: -2.2rem;
     margin-left: 2rem;
+}
+
+/* Media Query for 1080p screen */
+@media screen and (max-width: 1920px) {
+    .experience__container {
+        gap: 1.5rem;
+    }
+
+    .experience__container > div {
+        margin: 1rem 1rem -1rem -1rem;
+    }
+
+    .experience__content {
+        margin-left: 5rem;
+    }
+
+    .experience__paragraphs p {
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+    }
 }
 
 
