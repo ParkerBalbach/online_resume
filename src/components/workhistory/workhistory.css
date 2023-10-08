@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
-    margin-left: 8rem;
+    margin-left: 10rem;
 }
 
 .experience__details {
