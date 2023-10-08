@@ -1,15 +1,15 @@
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40% 1fr;
     gap: 2rem;
 }
 
 .experience__container > div {
     background: var(--color-light-bg);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 6rem;
     border-radius: 2rem;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem -1rem 1rem;
     border: 1px solid transparent;
     transition: var(--transition)
 }
@@ -30,6 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    margin-left: 6rem;
 }
 
 .experience__details {
