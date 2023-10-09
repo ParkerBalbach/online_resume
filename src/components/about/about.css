@@ -17,14 +17,16 @@
 
 /* Image in About Me Section */
 .about__me-image {
-    border-radius: 11rem;
+    border-radius: 0rem;
     overflow: hidden;
     transform: rotate(0);
     transition: var(--transition);
     position: relative;
-    padding-top: 5rem; 
-    padding-bottom: 6rem;
+    padding-top: 9rem; 
+    padding-bottom: 7rem;
     z-index: 1; 
+    margin-bottom: 12rem;
+    width: 19.8rem;
 }
 
 .about__me::before {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MYPIC from '../../images/placeholder_image.png'
+import MYPIC from '../../images/ME_3.png'
 import {FaBusinessTime} from 'react-icons/fa'
 import {MdLanguage} from 'react-icons/md'
 import {FaTools} from 'react-icons/fa'
