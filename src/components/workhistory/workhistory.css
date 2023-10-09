@@ -50,7 +50,6 @@
     color: var(--color-primary);
 }
 
-/* Before edit */
 .experience__paragraphs {
     margin-left: 1.5rem;
     position: relative;
@@ -94,6 +93,7 @@
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 
     .experience__container > div {
@@ -105,6 +105,11 @@
     .experience__content {
         padding: 1rem;
     }
+
+    .experience__paragraphs p{
+        margin-left: -1.2rem;
+        margin-right: -1.2rem;
+    }
 }
 
 /* Phone Media Queries (small) */
@@ -115,6 +120,51 @@
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding-top: 1rem;
+        margin: 1rem 1rem -1rem -1rem;
+    }
+
+    .experience__content {
+       grid-template-rows: 1fr;
+       margin-left: 0;
+       margin-right: -2rem;
+    }
+}
+
+/* Phone Media Queries (small) */
+@media screen and (max-width: 375px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding-top: 1rem;
+        margin: 1rem 3rem -1rem -1rem;
+    }
+
+    .experience__content {
+       grid-template-rows: 1fr;
+       margin-left: 0;
+       margin-right: -2rem;
+    }
+}
+
+/* Galaxy S8+ */
+@media screen and (max-width: 360px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 96%;
+        padding-top: 1rem;
+        margin: 1rem 3rem -1rem -1rem;
+    }
+
+    .experience__content {
+       grid-template-rows: 1fr;
+       margin-left: 0;
+       margin-right: -2rem;
     }
 }
